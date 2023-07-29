@@ -1,0 +1,19 @@
+# eureka本身也是一个微服务，所以eureka启动时作为一个微服务也会被注册到eureka(软件)上面，这是为了将来有多个eureka(软件)之间的通信 -- 我是负责登记的，登记簿上写一下我自己没有问题吧
+# 多个eureka(软件)叫做集群
+
+# 1.分配eureka这个微服务一个端口
+server:
+  port: 8079
+
+# 2.服务注册
+# 2.1 eureka这个微服务的名字
+spring:
+  application:
+    name: eureka-service
+# 2.2 eureka这个微服务的地址
+eureka:
+  client:
+    register-with-eureka: true  # 是否向eureka注册自身服务
+    fetch-registry: false  # 是否检索服务
+    service-url:
+      defaultZone: http://127.0.0.1:8079/eureka

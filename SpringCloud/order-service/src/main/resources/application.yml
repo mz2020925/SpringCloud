@@ -1,0 +1,41 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://39.101.74.139:3306/cloud-order # ?serverTimezone=UTC?useSSL=false
+    username: zmz
+    password: Root_1234
+  # 2.服务注册
+  # 2.1 user微服务的名字
+  application:
+    name: orderservice
+
+# 2.2 eureka的地址
+eureka:
+  client:
+    register-with-eureka: true  # 是否向eureka注册自身服务
+    fetch-registry: true  # 是否检索服务
+    service-url:
+      defaultZone: http://127.0.0.1:8079/eureka
+
+# 配置本微服务 请求访问 userservice 微服务的负载均衡规则
+userservice:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule  # 负载均衡规则
+ribbon:
+  eager-load:
+    enabled: true # 开启饥饿加载
+    clients: # 指定饥饿加载的服务名称
+      - userservice
+
+
+mybatis:
+  type-aliases-package: cn.itcast.user.pojo
+  configuration:
+    map-underscore-to-camel-case: true
+logging:
+  level:
+    cn.itcast: debug
+  pattern:
+    dateformat: MM-dd HH:mm:ss:SSS
