@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="224dc378-4d81-49d5-8853-7035984fbf72" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\JetBrains\IntelliJ IDEA 2020.2.2\plugins\maven\lib\maven3\mvn_resp" />
+        <option name="mavenHome" value="D:\JetBrains\IntelliJ IDEA 2020.2.2\plugins\maven\lib\maven3" />
+        <option name="userSettingsFile" value="D:\JetBrains\IntelliJ IDEA 2020.2.2\plugins\maven\lib\maven3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2VTNGZZlI8AKdoYrfwIYfXtRX6U" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/publisher/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.30213633" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\coding_intellijIDEA\SpringClouds\SpringCloud_SpringAMQP\publisher\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.PublisherApplicationTests">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PublisherApplicationTests (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fanout_publisher" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mq" />
+      <option name="MAIN_CLASS_NAME" value="com.mq.PublisherApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PublisherApplicationTests (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="direct_publisher" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mq" />
+      <option name="MAIN_CLASS_NAME" value="com.mq.PublisherApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PublisherApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="topic_publisher" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mq" />
+      <option name="MAIN_CLASS_NAME" value="com.mq.PublisherApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="fanout_consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mq.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="topic_consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mq.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PublisherApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="fanout_publisher" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mq.PublisherApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PublisherApplicationTests" />
+        <item itemvalue="Spring Boot.ConsumerApplication" />
+        <item itemvalue="JUnit.PublisherApplicationTests (1)" />
+        <item itemvalue="Spring Boot.ConsumerApplication (1)" />
+        <item itemvalue="JUnit.PublisherApplicationTests (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="224dc378-4d81-49d5-8853-7035984fbf72" name="Default Changelist" comment="" />
+      <created>1694856015385</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694856015385</updated>
+      <workItem from="1694856018759" duration="7364000" />
+      <workItem from="1694882112867" duration="2000" />
+      <workItem from="1694882225554" duration="8016000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1694857042176">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.816@0.0.1536.816" timestamp="1694857042176" />
+    <state x="346" y="27" width="1089" height="789" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1694884533342">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="346" y="27" width="1089" height="789" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1694884533342" />
+    <state x="499" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1694856063835">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="499" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.816@0.0.1536.816" timestamp="1694856063835" />
+    <state width="1218" height="333" key="GridCell.Tab.0.bottom" timestamp="1694957681067">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1218" height="333" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1694957681067" />
+    <state width="1218" height="333" key="GridCell.Tab.0.center" timestamp="1694957681067">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1218" height="333" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1694957681067" />
+    <state width="1218" height="333" key="GridCell.Tab.0.left" timestamp="1694957681067">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1218" height="333" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1694957681067" />
+    <state width="1218" height="333" key="GridCell.Tab.0.right" timestamp="1694957681067">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1218" height="333" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1694957681067" />
+    <state width="1218" height="333" key="GridCell.Tab.1.bottom" timestamp="1694957681067">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1218" height="333" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1694957681067" />
+    <state width="1218" height="333" key="GridCell.Tab.1.center" timestamp="1694957681067">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1218" height="333" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1694957681067" />
+    <state width="1218" height="333" key="GridCell.Tab.1.left" timestamp="1694957681067">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1218" height="333" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1694957681067" />
+    <state width="1218" height="333" key="GridCell.Tab.1.right" timestamp="1694957681067">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1218" height="333" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1694957681067" />
+    <state x="116" y="95" width="1285" height="710" key="SettingsEditor" timestamp="1694884033609">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="116" y="95" width="1285" height="710" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1694884033609" />
+    <state x="116" y="118" key="new project wizard" timestamp="1694857031966">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="116" y="118" key="new project wizard/0.0.1536.816@0.0.1536.816" timestamp="1694857031966" />
+    <state x="425" y="185" key="run.anything.popup" timestamp="1694888858847">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="425" y="185" key="run.anything.popup/0.0.1536.816@0.0.1536.816" timestamp="1694888858847" />
+  </component>
+</project>

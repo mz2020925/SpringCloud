@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud_SpringAMQP.iml" filepath="$PROJECT_DIR$/SpringCloud_SpringAMQP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic_consumer/basic_consumer.iml" filepath="$PROJECT_DIR$/basic_consumer/basic_consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic_publisher/basic_publisher.iml" filepath="$PROJECT_DIR$/basic_publisher/basic_publisher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/direct_consumer/direct_consumer.iml" filepath="$PROJECT_DIR$/direct_consumer/direct_consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/direct_publisher/direct_publisher.iml" filepath="$PROJECT_DIR$/direct_publisher/direct_publisher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fanout_consumer/fanout_consumer.iml" filepath="$PROJECT_DIR$/fanout_consumer/fanout_consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fanout_publisher/fanout_publisher.iml" filepath="$PROJECT_DIR$/fanout_publisher/fanout_publisher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/topic_consumer/topic_consumer.iml" filepath="$PROJECT_DIR$/topic_consumer/topic_consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/topic_publisher/topic_publisher.iml" filepath="$PROJECT_DIR$/topic_publisher/topic_publisher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/work_consumer/work_consumer.iml" filepath="$PROJECT_DIR$/work_consumer/work_consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/work_publisher/work_publisher.iml" filepath="$PROJECT_DIR$/work_publisher/work_publisher.iml" />
+    </modules>
+  </component>
+</project>
