@@ -3,7 +3,7 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://39.101.74.139:3306/cloud-order # ?serverTimezone=UTC?useSSL=false
+    url: jdbc:mysql://132.232.112.6:3306/cloud-order # ?serverTimezone=UTC?useSSL=false
     username: zmz
     password: Root_1234
   # 2.服务注册
